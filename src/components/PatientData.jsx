@@ -18,29 +18,29 @@ export default function PatientData() {
           className="h-32 w-32 rounded-full mb-4"
         />
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
-          {data?.name || "Abdullah"}
+          {data?.name || "Jessica Taylor"}
         </h2>
       </div>
       <div className="space-y-4 text-xs">
         <PatientInfoItem
           icon={BirthIcon}
           label="Date Of Birth"
-          value={data?.date_of_birth || "April 24, 2000"}
+          value={data?.date_of_birth || "August 23, 1996"}
         />
         <PatientInfoItem
           icon={FemaleIcon}
           label="Gender"
-          value={data?.gender || "Male"}
+          value={data?.gender || "Feamle"}
         />
         <PatientInfoItem
           icon={PhoneIcon}
           label="Contact Info."
-          value={data?.phone_number || "+92 3101430615"}
+          value={data?.phone_number || "+456 123456"}
         />
         <PatientInfoItem
           icon={PhoneIcon}
           label="Emergency Contacts"
-          value={data?.emergency_contact || "+92 3101430615"}
+          value={data?.emergency_contact || "+456 556789"}
         />
         <PatientInfoItem
           icon={InsuranceIcon}
